@@ -1,0 +1,501 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header Ends Here */
+
+/* Contact-Us Section */
+
+.contactUs-container{
+    height: 850px;
+    width: 100%;
+    display: flex;
+    background-image: url("./ContactUs-img/Dog-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}.contactUs-form-conatiner{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.contactUs-form{
+    height:600px;
+    width: 600px;
+}.contactUs-form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:50px;
+    text-align: left;
+    padding-top: 20px;
+}.contactUs-form p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding: 15px 0px 15px 0px;
+    line-height: 1.5;
+}.contactUs-form form{
+    display: flex;
+    flex-direction: column;
+}.form-details{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}.name-addr{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}.name-addr label{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 5px 0px;
+    color: rgba(0, 0, 0, 0.603);
+}.name-addr input{
+    height: 40px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(0, 0, 0, 0.331);
+    border-radius: 8px;
+    padding-left: 15px;
+    font-size: 17px;
+}.name-addr input::placeholder{
+    font-size: 15px;
+}.name-addr input:focus{
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.331); 
+}.lname-subject{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}.lname-subject label{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 5px 0px;
+    color: rgba(0, 0, 0, 0.603);
+}.lname-subject input{
+    height: 40px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(0, 0, 0, 0.331);
+    border-radius: 8px;
+    padding-left: 15px;
+    font-size: 17px;
+}.lname-subject input::placeholder{
+    font-size: 15px;
+}.lname-subject input:focus{
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.331); 
+}#message-label{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 5px 0px;
+    color: rgba(0, 0, 0, 0.603);
+}form textarea{
+    height: 120px;
+    width: 100%;
+}form textarea{
+    height: 100%;
+    width: 93%;
+    border: 2px solid rgba(0, 0, 0, 0.331);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 17px;
+    resize: none;
+}form textarea::placeholder{
+    font-size: 15px;
+}form textarea:focus{
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.331); 
+}.submit-btn{
+    height: 100%;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 15px 18px;
+    background-color: rgba(0, 0, 255, 0.733);
+    color: white;
+}.submit-btn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.847);
+    color: white;
+}.contactUs-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}.contactus-text{
+    display: flex;
+    align-items: end;
+    margin-bottom: 50px;
+    height: 50%;
+}.addr-email{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: left;
+}.addr-email h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}.addr-email p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}.phone-follow{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: left;
+}.phone-follow h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}.phone-follow p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 35px;
+}.followUs-img{
+    display: flex;
+}.followUs-img img {
+    height: 30px;
+    width:30px;
+    padding-right: 10px;
+}.followUs-img img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:0.3s ease-in-out;
+}.map-loc-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+}.map-card{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}.map-loc-container iframe{
+    height: 99%;
+    width: 99%;
+    border-radius: 15px;
+}
+
+/* ContactUs Section Ends Here */
+
+/* FAQ STARTS HERE */
+
+.faq-area{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.faq-container {
+  max-width: 700px;
+  margin-top: 30px;
+}.faq-container h1 {
+  font-size: 3.2em;
+  margin-bottom: 5px;
+  text-align: center;
+}.subtitle {
+  color: #888;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  margin: 20px 0px 10px 0px;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  color: #2c1e50;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-question::after {
+  content: "▼";
+  position: absolute;
+  right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.faq-question.active::after {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.faq-answer p {
+  margin: 15px 0;
+}
+
+/* FAQ Ends Here */
+
+/* Footer */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.footer-box{
+    height: 250px;
+    width: 20%;
+}.footer-logo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-logo img{
+    height: 80px;
+}.footer-logo h3{
+    font-size: 27px;
+}.footer-logo p{
+    font-size: 8px;
+}.aver-details{
+    height: 170px;
+    width: 100%;
+    display: inline;
+}.location{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    margin: 10px 0px 0px 25px;
+    justify-content: center;
+    align-items: center;
+}.location img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.aver-call{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 5px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}.aver-call img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 10px 10px;
+}
+.mail{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 0px 0px 0px 38px;
+    justify-content: center;
+    align-items: center;
+}.mail img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Navigations */
+
+.navigation{
+    height: 200px;
+}.navigation h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.navigation ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.navigation ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-business{
+    height: 200px;
+}.Aver-business h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black
+}.Aver-business ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-business ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-business ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-info{
+    height: 200px;
+}.Aver-info h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.Aver-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-info ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-info ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Footer Ends Here */

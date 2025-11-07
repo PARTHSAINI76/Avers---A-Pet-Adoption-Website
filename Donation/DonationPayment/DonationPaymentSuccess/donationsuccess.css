@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header Ends Here */
+
+/* Thank You Card */
+
+.thankyou-card-container{
+    font-family: "Arial", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+}
+
+.thankyou-card {
+      background-color: #ffffff;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 400px;
+      animation: fadeIn 0.8s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .icon {
+      font-size: 40px;
+      color: #ff7a00;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    p span {
+      color: #ff7a00;
+      font-weight: bold;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #f2c6a0;
+      margin: 20px 0;
+    }
+
+    .info {
+      text-align: left;
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    .info p {
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 0;
+    }
+
+    .info strong {
+      color: #111;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 25px;
+    }
+
+    button {
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 12px 20px;
+      font-weight: bold;
+      transition: transform 0.2s ease, background-color 0.3s;
+    }
+
+    .social {
+      background-color: #ff7a00;
+      color: #fff;
+    }
+
+    .social:hover {
+      background-color: #e56c00;
+      transform: scale(1.03);
+    }
+
+    .home {
+      background-color: #ffe6d0;
+      color: #ff7a00;
+    }
+
+    .home:hover {
+      background-color: #ffcfaa;
+      transform: scale(1.03);
+    }

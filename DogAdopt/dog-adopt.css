@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header Ends Here */
+
+/* Banner-1 */
+
+.banner-1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./DogAdopt-img/Dog-bg.jpg"); 
+    background-size: cover;
+    background-position: center;
+}.banner-text{
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.banner-text h1{
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 700px;
+    text-align: center;
+}.banner-text p{
+    font-size: 18px;
+    text-align: center;
+    width: 610px;
+    margin-top: 20px;
+}
+
+/* Dog-Card Area */
+
+.card-container{
+    height: 1490px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 0px 8% 0px;
+    background-color: white;
+}.card-row{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}.dog-card{
+    height: 90%;
+    width: 20%;
+    margin: 20px 60px;
+    border-radius: 15px;
+}.dog-card:hover{
+    cursor: pointer;
+}.dog-card img{
+    height:63%;
+    width: 100%;
+    border-radius: 15px;
+}.dog-card h4{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}.dog-card p{
+    margin-top: 10px;
+    font-size: 15px;
+}.sex-loc{
+    margin-top: 10px;
+    display: flex;
+}.sex-loc p{
+    padding-left: 5px;
+    margin-right: 10px;
+}.sex-loc hr{
+    height: 20px;
+    margin-top: 10px;
+}
+
+/* Dog-Card-Area Ends Here */
+
+/* How-it-works */
+
+.banner3{
+     height: 500px;
+    width: 100%;
+    margin-top: -40px;
+    background-color: lightblue;
+}.banner3-heading{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.banner3-content{
+    height: 220px;
+    width: 590px;
+    margin-top:100px;
+}.banner3-content h2{
+    font-size: 70px;
+    margin-left: 60px;
+}.banner3-content p{
+    font-size: 22px;
+    margin-top: 10px;
+    width: 600px;  
+}.banner-details{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.step-1{
+    height: 180px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgb(53, 157, 191);
+}.step-1 h3{
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    margin: 20px 0px 0px 25px;
+}.step-1 p{
+    width: 200px;
+    margin: 20px 0px 0px 30px;
+    font-size: 18px;
+}
+
+/* How it works Ends Here */
+
+/* FAQ */
+
+.faq-area{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.faq-container {
+  max-width: 700px;
+  margin-top: 30px;
+}.faq-container h1 {
+  font-size: 2.2em;
+  margin-bottom: 5px;
+  text-align: center;
+}.subtitle {
+  color: #888;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  margin: 20px 0px 10px 0px;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  color: #2c1e50;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-question::after {
+  content: "▼";
+  position: absolute;
+  right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.faq-question.active::after {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.faq-answer p {
+  margin: 15px 0;
+}
+
+/* FAQ Ends Here */
+
+/* Footer */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.footer-box{
+    height: 250px;
+    width: 20%;
+}.footer-logo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-logo img{
+    height: 80px;
+}.footer-logo h3{
+    font-size: 27px;
+}.footer-logo p{
+    font-size: 8px;
+}.aver-details{
+    height: 170px;
+    width: 100%;
+    display: inline;
+}.location{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    margin: 10px 0px 0px 25px;
+    justify-content: center;
+    align-items: center;
+}.location img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.aver-call{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 5px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}.aver-call img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 10px 10px;
+}
+.mail{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 0px 0px 0px 38px;
+    justify-content: center;
+    align-items: center;
+}.mail img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Navigations */
+
+.navigation{
+    height: 200px;
+}.navigation h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.navigation ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.navigation ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-business{
+    height: 200px;
+}.Aver-business h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black
+}.Aver-business ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-business ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-business ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-info{
+    height: 200px;
+}.Aver-info h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.Aver-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-info ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-info ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}

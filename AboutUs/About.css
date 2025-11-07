@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* HEADER ENDS HERE  */
+
+/* Image Container */
+
+.text-container{
+    height: 600px;
+    width: 100%;
+    background-image: url("Dog-bg.jpg"); 
+    background-size: cover;
+    background-position: center;   
+}.container-text{
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.container-text h1{
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 600px;
+    text-align: center;
+}.container-text p{
+    font-size: 18px;
+    text-align: center;
+    width: 610px;
+    margin-top: 20px;
+}
+
+.image-box{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}.image-container{
+    height: 660px;
+    width: 60%;
+    margin-bottom: -350px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 15px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}.image-container img{
+    height: 80%;
+    width: 97%;
+    border-radius: 20px;
+}.image-container h3{
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aboutAvers-outline{
+    height: 900px;
+    width: 100%;
+    padding-top: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(240, 240, 240, 0.717);
+}.Avers-detail-box{
+    height: 185px;
+    width: 100%;
+    margin-top: -15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}.dog-sold{
+    height: 125px;
+    width: 25%;
+    padding: 30px;
+    margin-left: 10px;
+}.dog-sold h1{
+    font-size: 60px;
+    font-weight: bold;
+}.line{
+    height: 50%;
+    margin-top: 15px;
+}.cat-sold{
+    height: 125px;
+    width: 25%;
+    padding: 30px;
+    margin-left: 40px;
+}.cat-sold h1{
+    font-size: 60px;
+    font-weight: bold;
+}.line2{
+    height: 50%;
+    margin-top: 15px;
+}.years-of-exp{
+    height: 125px;
+    width: 20%;
+    padding: 30px;
+    margin-left: 40px;
+}.years-of-exp h1{
+    font-size: 60px;
+    font-weight: bold ;
+}
+
+/* About Avers box */
+.about-Avers{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}.About-Avers-text{
+    height: 800px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}.about-text1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;          
+}.about-text1 h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 500px;
+    font-weight: bold;
+}.about-text1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 500px;
+    line-height: 1.5;
+}
+.about-text2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 20px;
+}.about-text2 h3{
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 500px;
+    font-weight: bold;
+}.About-Avers-image{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}.About-Avers-image img{
+    height: 90%;
+    width: 90%;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+}.about-img{
+    width: 100%;
+    height: 70%;
+}.about-img-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}.about-img-text p{
+    width: 250px;
+    height: 120px;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+
+/* Team Box */
+
+.Avers-team{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}.team-text{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+
+}.team-text h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 500px;
+    font-weight: bold;
+}.team-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 800px;
+    line-height: 1.5;
+}.team-cards{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.card{
+    height:55%;
+    width: 14%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    box-shadow: 5px 5px 15px rgb(107, 166, 186);
+    background-color: white;
+}.card img{
+    height: 35%;
+    width: 35%;
+    border-radius: 50%;
+}.card h3{
+     font-size: 20px;
+     margin-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}.card p{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+/* Footer  */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px;
+}.footer-box{
+    height: 250px;
+    width: 20%;
+}.footer-logo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-logo img{
+    height: 80px;
+}.footer-logo h3{
+    font-size: 27px;
+}.footer-logo p{
+    font-size: 8px;
+}.aver-details{
+    height: 170px;
+    width: 100%;
+    display: inline;
+}.location{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    margin: 10px 0px 0px 25px;
+    justify-content: center;
+    align-items: center;
+}.location img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.aver-call{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 5px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}.aver-call img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 10px 10px;
+}
+.mail{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 0px 0px 0px 38px;
+    justify-content: center;
+    align-items: center;
+}.mail img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Navigations */
+
+.navigation{
+    height: 200px;
+}.navigation h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.navigation ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.navigation ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-business{
+    height: 200px;
+}.Aver-business h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black
+}.Aver-business ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-business ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-business ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-info{
+    height: 200px;
+}.Aver-info h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.Aver-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-info ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-info ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}

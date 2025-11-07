@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header Ends Here */
+
+/* Banner-1 */
+
+.donate-banner{
+    height: 500px;
+    width: 100%;
+    background-image: url('./donation-img/Aver-main-bg\(1\).jpg');
+    background-size: cover;
+    background-position: center;
+}.banner-head{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}.banner-head img{
+    height: 80%;
+}.banner1-text{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.banner1-text h1{
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 700px;
+    text-align: center;
+}.banner1-text p{
+     font-size: 18px;
+    text-align: center;
+    width: 610px;
+    margin-top: 20px;
+}
+.donationCardContainer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.donate-card{
+    height: 90%;
+    width: 13%;
+    border: 1px solid beige;
+    box-shadow: 5px 0px 20px beige;
+    border-radius: 15px;
+    background-color: white;
+    margin: -220px 0px 0px 20px;
+}.donate-card img{
+    height: 40%;
+    margin:-20% 0px 0px 30%;
+    border-radius: 50%;
+}.donate-card h3{
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;   
+}.donate-card button{
+    padding: 7% 25%;
+    margin: 10% 10%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: lightblue;
+}.donate-card button:hover{
+    background-color: rgb(112, 195, 223);
+    cursor: pointer;
+}
+
+/* Donation Slider */
+
+.donation-image-slidercontainer{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}.slider {
+    position: relative;
+    width: 60%;
+    height: 75%;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slide {
+    min-width: 100%;
+    height: 100%;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+  }
+  /* Optional: dots navigation */
+  .dots {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #bbb;
+    border-radius: 50%;
+    margin: 0 6px;
+    cursor: pointer;
+  }
+  .dot.active {
+    background: #333;
+  }
+
+  /* Slider Ends Here */
+
+  /* Banner-2 */
+
+  .banner-2{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.banner-2-conatiner{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(173, 216, 230, 0.244);
+  }.banner-2-text{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }.banner-2-text h3{
+    width: 70%;
+    font-size: 50px;
+    text-align: left;
+  }.banner-2-text p{
+    width: 70%;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1;
+    text-align: left;
+  }.color-container{
+    height: 23%;
+    width: 70%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }.color-container hr{
+    width: 10px;
+    height: 100%;
+    background-color: rgba(67, 182, 220, 0.68);
+    border: none;
+  }.color-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .color-container-text span{
+    width: 90%;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 1;
+    text-align: left;
+}.color-container-text h5{
+    width: 70%;
+    margin:20px 0px 0px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }.banner-2-img{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;     
+  }.banner-2-img img{
+    height: 75%;
+    width: 85%;
+    border-radius: 15px;
+  }
+
+  /* Footer */
+
+  .footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.footer-box{
+    height: 250px;
+    width: 20%;
+}.footer-logo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-logo img{
+    height: 80px;
+}.footer-logo h3{
+    font-size: 27px;
+}.footer-logo p{
+    font-size: 8px;
+}.aver-details{
+    height: 170px;
+    width: 100%;
+    display: inline;
+}.location{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    margin: 10px 0px 0px 25px;
+    justify-content: center;
+    align-items: center;
+}.location img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.aver-call{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 5px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}.aver-call img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 10px 10px;
+}
+.mail{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 0px 0px 0px 38px;
+    justify-content: center;
+    align-items: center;
+}.mail img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Navigations */
+
+.navigation{
+    height: 200px;
+}.navigation h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.navigation ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.navigation ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-business{
+    height: 200px;
+}.Aver-business h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black
+}.Aver-business ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-business ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-business ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-info{
+    height: 200px;
+}.Aver-info h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.Aver-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-info ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-info ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+  

@@ -1,0 +1,568 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header Ends Here */
+
+/* Banner-1 */
+
+.banner-1{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Cat-detail-7-img/CatBg.webp"); 
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}.banner-text{
+    height: 50%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.banner-text h1{
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    width: 700px;
+    text-align: center;
+}.banner-text p{
+    font-size: 18px;
+    text-align: center;
+    width: 610px;
+    margin-top: 20px;
+}.dogdetail-container{
+    height: 50%;
+    width: 60%;
+    display: flex;
+    background-color: white;
+    margin-bottom: -120px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(245, 205, 205, 0.888);
+}.dog-img{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}.dog-img img{
+    height: 90%;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 20px;
+}.dog-details{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}.dog-details h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}.about-dog{
+    display: flex;
+}.about-dog-1, .about-dog-2{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 15px;
+}.about-dog-1 span p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}.about-dog-2 span p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}.dog-details button{
+    height: 15%;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.733);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}.dog-details button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.815);
+}.dog-details button img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* Banner-1 Ends Here */
+
+/* Banner-2 Goes Here */
+
+.banner-2{
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.banner2-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.banner2-text h3{
+    width: 75%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+    text-shadow: 1px 1px 4px #000000;
+}.banner2-text p{
+    font-size: 18px;
+    text-align: left;
+    width: 75%;
+    margin-top: 10px;
+
+}.banner2-video {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      max-width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    video {
+      width: 80%;
+      display: block;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .play-pause-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      border: none;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+    }
+
+    .play-pause-btn.hidden {
+      display: none;
+    }
+
+    /* Banner-2 Ends Here */
+
+    /* Banner-3 Goes Here */
+    .banner-3{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        background-color: rgba(173, 216, 230, 0.655);
+    }.banner3-img{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }.banner3-img img{
+        height: 85%;
+        width: 38%;
+    }.banner3-text{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }.banner3-text h3{
+        width: 95%;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 12px;
+        text-shadow: 1px 1px 4px #000000;
+    }.banner3-text p{
+         font-size: 18px;
+         text-align: left;
+         width: 75%;
+         margin-top: 10px;
+    }.banner3-text button{
+        height: 10%;
+        width: 22%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 255, 0.733);
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+    }.banner3-text button:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 255, 0.815);
+    }.banner3-text button img{
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    /* Banner-3 Ends Here */
+
+    /* Banner-4 Goes Here */
+
+    .banner-4{
+        height: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+    }.avail-dog-text{
+        height: 50%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }.avail-dog-head{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }.avail-dog-head h3{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 12px;
+        text-shadow: 1px 1px 2px #000000;
+    }.avail-dog-head p{
+         font-size: 18px;
+         text-align: left;
+         width: 65%;
+    }.avail-dog-button{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }.avail-dog-button button{
+        height: 30%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        background-color: lightblue;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }.avail-dog-button button:hover{
+        cursor: pointer;
+        background-color: rgb(156, 204, 220);
+    }.avail-dog-card-container{
+        height: 25%;
+        width: 82%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8% 0px 8% 0px;
+    }.card-row{
+        height: 200%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }.dog-card{
+        height: 90%;
+        width: 40%;
+        margin: 20px 20px;
+        border-radius: 15px;
+    }.dog-card:hover{
+        cursor: pointer;
+    }.dog-card img{
+        height:58%;
+        width: 100%;
+        border-radius: 15px;
+    }.dog-card h4{
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }.dog-card p{
+        margin-top: 10px;
+        font-size: 15px;
+    }.sex-loc{
+        margin-top: 10px;
+        display: flex;
+    }.sex-loc p{
+        padding-left: 5px;
+        margin-right: 10px;
+    }.sex-loc hr{
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    #footer-hr{
+        height: 10px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    /* Banner-4 Ends Here */
+
+    /* Footer */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.footer-box{
+    height: 250px;
+    width: 20%;
+}.footer-logo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-logo img{
+    height: 80px;
+}.footer-logo h3{
+    font-size: 27px;
+}.footer-logo p{
+    font-size: 8px;
+}.aver-details{
+    height: 170px;
+    width: 100%;
+    display: inline;
+}.location{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    margin: 10px 0px 0px 25px;
+    justify-content: center;
+    align-items: center;
+}.location img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.aver-call{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 5px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}.aver-call img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 10px 10px;
+}
+.mail{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 0px 0px 0px 38px;
+    justify-content: center;
+    align-items: center;
+}.mail img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Navigations */
+
+.navigation{
+    height: 200px;
+}.navigation h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.navigation ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.navigation ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-business{
+    height: 200px;
+}.Aver-business h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black
+}.Aver-business ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-business ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-business ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-info{
+    height: 200px;
+}.Aver-info h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.Aver-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-info ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-info ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}

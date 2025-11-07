@@ -1,0 +1,526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+}
+
+/* HEADER GOES HERE  */
+
+.logo{
+    height: 50px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+}
+.logo-name h3{
+    font-size: 27px;
+}
+.logo-name p{
+    font-size: 8px;
+}
+
+.navbar{
+    height: 50px;
+    width: 50%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar ul li{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+.navbar ul select{
+    padding: 10px 0px 10px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.navbar ul select:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black
+}
+
+.contacts{
+   height: 50px;
+    width: 33%;
+    display: flex;
+}
+.call{
+    height: 50px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 5px;  
+}
+.call h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.call span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.adopt-btn{
+    height: 50px;
+    width: 70%;
+}
+.adopt-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 8px 20px 8px 20px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+.adopt-btn button img{
+    padding-right: 5px;
+}
+.adopt-btn button:hover{
+    cursor: pointer;
+    background-color: rgba(52, 91, 220, 0.584);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header Ends Here */
+
+/* Banner-1 Starts Here */
+
+.banner-1{
+    height: 850px;
+    width: 100%;
+    background-image: url('./ourTeam-img/Aver-main-bg\(1\).jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* --------- HERO SECTION --------- */
+.team-section {
+  text-align: center;
+  padding: 60px 20px 30px;
+  /* background: linear-gradient(180deg, #e8e4de99 0%, #bcb6b6f3 100%); */
+}
+.team-section h1 {
+  font-family: "Playfair Display", serif;
+  color: #40246a;
+  font-size: 4.5rem;
+}
+.team-section p {
+  color: #777;
+  max-width: 600px;
+  margin: 15px auto 40px;
+  line-height: 1.6;
+}
+
+/* --------- TEAM GRID --------- */
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+}
+.team-card {
+  background: rgba(255, 255, 255, 0.648);
+  border-radius: 18px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+.team-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.team-card h3 {
+  font-family: "Playfair Display", serif;
+  color: #40246a;
+  font-size: 1rem;
+}
+.team-card p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Banner-1 Ends Here */
+
+/* Banner-2 Starts Here */
+
+.banner2{
+    height: 540px;
+    width: 100%;
+    display: flex;
+    background-color: lightblue;
+}
+
+/* Info - box - 2 */
+
+.infobox-2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}.detail-box{
+    height: 185px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px beige;
+    display: flex;
+}.dog-sold{
+    height: 125px;
+    width: 25%;
+    padding: 30px;
+    margin-left: 10px;
+}.dog-sold h1{
+    font-size: 60px;
+    font-weight: bold;
+}.line{
+    height: 80%;
+    margin-top: 15px;
+}.cat-sold{
+    height: 125px;
+    width: 25%;
+    padding: 30px;
+    margin-left: 40px;
+}.cat-sold h1{
+    font-size: 60px;
+    font-weight: bold;
+}.line2{
+    height: 80%;
+    margin-top: 15px;
+}.years-of-exp{
+    height: 125px;
+    width: 20%;
+    padding: 30px;
+    margin-left: 40px;
+}.years-of-exp h1{
+    font-size: 60px;
+    font-weight: bold ;
+}
+/* Banner-2 Ends Here */
+
+
+/* Banner-3 Starts Here */
+.banner-3{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --------- PET LOVERS SECTION --------- */
+.pet-lovers {
+  background-color: #f9f7ff;
+  padding: 70px 80px;
+}
+.pet-lovers .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.pet-lovers h2 {
+  font-family: 'Playfair Display', serif;
+  color: #40246a;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.pet-lovers p {
+  color: #777;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.pet-lovers img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* --------- ICON FEATURES --------- */
+.features {
+    width: 650px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: -250px;
+  gap: 20px;
+}
+.features div {
+  width: 250px;
+}
+.features img {
+  height: 40px;
+  width: 40px;
+  font-size: 28px;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+.features div:hover i {
+  transform: rotate(20deg) scale(1.1);
+}
+.features .give #star { background-color: #2eb872; }
+.features .diversity #copy { background-color: #5b6cff; }
+.features .quality #diamond { background-color: #ffb03b; }
+.features h4 {
+  color: #40246a;
+  margin-bottom: 5px;
+}
+.features p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px){
+  header {flex-direction: column;gap:15px;padding:20px;}
+  .pet-lovers .content {grid-template-columns: 1fr;}
+}
+/* Banner-3 Ends Here */
+
+/* Banner-4 Starts Here */
+
+.links{
+    height: 400px;
+    width: 100%;
+}
+.end-bannerbox{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.end-banner{
+    height: 200px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(175, 170, 170, 0.413);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.blue{
+    height: 200px;
+    width: 50%;                    
+    background-color: #0866FF;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;                         
+}.blue img{
+    height: 150px;
+    width: 150px;
+}.endbanner-text{
+    display: inline;
+    margin-left: 25px;
+}.endbanner-text h3{
+    font-size: 30px;
+    color: white;
+}.endbanner-text p{
+    font-size: 15px;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.orange{
+    height: 200px;
+    width: 50%;  
+    display: flex;                  
+    background-color: #ff7b00cd;
+    border-radius: 0px 10px 10px 0px;
+}
+.dog-img{
+    margin-left: -110px;
+    height: 200px;
+}.orange-content{
+    height: 200px;
+    width: 70%;
+    margin: 0px 0px 0px 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;    
+}.orange-content img{
+    height: 150px;
+    width: 150px;
+}.orange-content h3{
+    font-size: 30px;
+    width: 250px;
+    color: white;
+}.orange-content p{
+    font-size: 15px;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* banner-4 Ends Here */
+
+/* Footer Starts Here */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.footer-box{
+    height: 250px;
+    width: 20%;
+}.footer-logo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-logo img{
+    height: 80px;
+}.footer-logo h3{
+    font-size: 27px;
+}.footer-logo p{
+    font-size: 8px;
+}.aver-details{
+    height: 170px;
+    width: 100%;
+    display: inline;
+}.location{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    margin: 10px 0px 0px 25px;
+    justify-content: center;
+    align-items: center;
+}.location img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.aver-call{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 5px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}.aver-call img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 10px 10px;
+}
+.mail{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    margin: 0px 0px 0px 38px;
+    justify-content: center;
+    align-items: center;
+}.mail img{
+    height: 25px;
+    width: 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Navigations */
+
+.navigation{
+    height: 200px;
+}.navigation h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.navigation ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.navigation ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-business{
+    height: 200px;
+}.Aver-business h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black
+}.Aver-business ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-business ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-business ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Aver-info{
+    height: 200px;
+}.Aver-info h3{
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}.Aver-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}.Aver-info ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}.Aver-info ul li:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
